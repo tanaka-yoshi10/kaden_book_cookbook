@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 include_recipe 'simple_iptables'
-
+include_recipe 'ruby_build'
 # simple_iptables_policy "INPUT" do
 #   policy "DROP"
 # end
