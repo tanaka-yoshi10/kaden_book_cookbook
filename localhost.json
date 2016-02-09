@@ -4,6 +4,7 @@
     "recipe[apache2]",
     "recipe[ruby_build]",
     "recipe[rbenv]",
+    "recipe[passenger_apache2]",
     "recipe[simple_iptables]",
     "recipe[kaden_book_cookbook]"
   ]
