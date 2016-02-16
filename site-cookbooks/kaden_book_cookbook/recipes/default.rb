@@ -12,6 +12,12 @@ include_recipe 'ruby_build'
 #   policy "DROP"
 # end
 
+%w(sqlite-devel nodejs).each do |name|
+  package name do
+    action :install
+  end
+end
+
 rbenv_ruby "2.2.4" do
   global true
 end
